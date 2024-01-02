@@ -1,0 +1,11 @@
+﻿<Window x:Class="Okienka_dialogowe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WPF Dialogs Example" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Button x:Name="ShowModalDialogButton" Content="Pokaż okno modalne" Click="ShowModalDialogButton_Click" />
+            <Button x:Name="ShowNonModalDialogButton" Content="Pokaż okno nie modalne" Click="ShowNonModalDialogButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

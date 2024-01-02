@@ -1,0 +1,15 @@
+﻿<Window x:Class="Okienka_dialogowe.nonmodalWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Okienka_dialogowe"
+        mc:Ignorable="d"
+        Title="nonmodal" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="To jest niemodalne okno." HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Content="Zamknij" Click="CloseButton_Click" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
